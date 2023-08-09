@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Federico De Marchi"
   avatar           : "profile.png"
-  bio              : "M.Sc. Student at Saarland University. Research Assistant at Max Planck Institute for Informatics."
+  bio              : "Ph.D. student in Computer Science at Max Planck Institute for Informatics."
   location         : "Saarbruecken"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "fede00001@stud.uni-saarland.de"
+  email            : "fdemarc@mpi-inf.mpg.de"
   researchgate     :
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@fed3n"
+  twitter          :
   vine             :
   weibo            :
   xing             :

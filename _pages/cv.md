@@ -11,10 +11,11 @@ redirect_from:
 
 Education
 ======
-* M.Sc. in Informatics, Saarland University, 2021-Currently
+* Ph.D. Student in Computer Science, Max Planck Institute for Informatics, 2023-Currently
+* M.Sc. in Informatics, Saarland University, 2021-2023
 * B.Sc. in Informatics, University of Bologna, 2018-2021
 
 Work experience
 ======
-* Feb 2022-Currently: Research Assistant @ Max Plank Institute for Informatics
+* Feb 2022-Jul 2023: Research Assistant @ Max Plank Institute for Informatics
 * Feb 2021-May 2021: Systems Administrator Internship @ Virtualsquare Lab/University of Bologna
