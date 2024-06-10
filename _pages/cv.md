@@ -19,3 +19,7 @@ Work experience
 ======
 * Feb 2022-Jul 2023: Research Assistant @ Max Plank Institute for Informatics
 * Feb 2021-May 2021: Systems Administrator Internship @ Virtualsquare Lab/University of Bologna
+
+Service
+======
+* Artifact Evaluation Committee: OSDI24, ATC24
