@@ -15,4 +15,4 @@ In that regard, I am interested in Optical/Reconfigurable Data Center Networks, 
 More specifically, I am currently working on dedicated routing and transport for Reconfigurable Data Center Networks.
 
 Before joining as a Ph.D. student, I was a M.Sc. student at Saarland University working as a HiWi (student worker) for the same research group, where I developed a strong interest for Reconfigurable Data Center Networks.
-Previously, I received by B.Sc. from University of Bologna advised by Prof. Renzo Davoli, working on Userspace Network Virtualization and DNS in his [VirtualSquare](wiki.virtualsquare.org/) laboratory.
+Previously, I received by B.Sc. from University of Bologna advised by Prof. Renzo Davoli, working on Userspace Network Virtualization and DNS in his [VirtualSquare](https://wiki.virtualsquare.org/) laboratory.

@@ -10,7 +10,6 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
 * Ph.D. Student in Computer Science, Max Planck Institute for Informatics, 2023-Currently
 * M.Sc. in Informatics, Saarland University, 2021-2023
 * B.Sc. in Informatics, University of Bologna, 2018-2021
@@ -23,3 +22,8 @@ Work experience
 Service
 ======
 * Artifact Evaluation Committee: OSDI24, ATC24
+=======
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014
+* B.S. in GitHub, GitHub University, 2012
+
