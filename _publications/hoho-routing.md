@@ -1,6 +1,7 @@
 ---
 title: "Hop-On Hop-Off Routing: A Fast Tour across the Optical Data Center Network for Latency-Sensitive Flows"
 collection: publications
+category: workshops
 permalink: /publication/hoho-routing
 date: 2022-07-01
 venue: '6th Asia-Pacific Workshop on Networking (APNet 2022)'
