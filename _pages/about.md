@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science at the Max Planck Institute for Informatics, in the [Network and Cloud Systems](https://www.mpi-inf.mpg.de/departments/network-and-cloud-systems) group, advised by Dr. Yiting Xia.
+I am a Ph.D. student in Computer Science at the Max Planck Institute for Informatics and Saarland University in the [Network and Cloud Systems](https://www.mpi-inf.mpg.de/departments/network-and-cloud-systems) group advised by Dr. Yiting Xia.
 
 My research interests lie in networked systems, with a strong focus on data center networks. As more computing power moves into data centers, I believe there is significant potential for improving efficiency and sustainability by pushing the current boundaries of network engineering. In particular, I am interested in designing specialized network stack solutions for alternative, cost-efficient data center architectures.
 
