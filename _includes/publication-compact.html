@@ -1,0 +1,34 @@
+{% comment %}
+  Compact single-line-per-paper rendering used by both the homepage
+  "Selected publications" section and the full publications page.
+  Expects `post` to be a document from the publications collection.
+{% endcomment %}
+
+{% capture bold_name %}<strong>{{ site.author.name }}</strong>{% endcapture %}
+
+<div class="pub">
+  <div class="pub__title">
+    {% if post.paperurl and post.paperurl != '' %}
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    {% else %}
+      {{ post.title }}
+    {% endif %}
+  </div>
+
+  {% if post.authors %}
+    <div class="pub__authors">{{ post.authors | replace: site.author.name, bold_name }}</div>
+  {% elsif post.citation %}
+    <div class="pub__authors">{{ post.citation }}</div>
+  {% endif %}
+
+  <div class="pub__meta">
+    <span class="pub__venue">{{ post.venue }}</span>
+    <span class="pub__year">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+    {% if post.paperurl and post.paperurl != '' %}
+      <a class="pub__link" href="{{ post.paperurl }}">PDF</a>
+    {% endif %}
+    {% if post.slidesurl and post.slidesurl != '' %}
+      <a class="pub__link" href="{{ post.slidesurl }}">Slides</a>
+    {% endif %}
+  </div>
+</div>

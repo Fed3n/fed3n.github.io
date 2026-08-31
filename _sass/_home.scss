@@ -1,0 +1,157 @@
+/* ==========================================================================
+   Homepage sections, compact publication list and CV lists
+   ========================================================================== */
+
+/* Body text in .page__content is 1em, so these sections match it rather than
+   dropping to the theme's small sizes. $type-size-6 (0.75em) read as too small
+   next to the surrounding prose. */
+$section-font-size : $type-size-5; // 1em, same as body prose
+$section-meta-size : 0.875em;      // the scale has no step between 1em and 0.75em
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* The masthead is position: fixed, so anchored headings would otherwise land
+   underneath it. */
+.page__content h2[id] {
+  scroll-margin-top: $masthead-height + 20px;
+}
+
+.page__content h2,
+.pub-group {
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid $border-color;
+}
+
+/* News
+   ========================================================================== */
+
+.news {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: $section-font-size;
+
+  li {
+    display: flex;
+    gap: 0.75em;
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+  }
+}
+
+/* Kept at the row's font size so the date and text share a baseline; the muted
+   colour is what separates them. */
+.news__date {
+  flex: 0 0 6.5em;
+  color: $gray;
+  font-variant-numeric: tabular-nums;
+}
+
+.news__text {
+  flex: 1 1 auto;
+}
+
+/* Publications
+   ========================================================================== */
+
+.pub-group {
+  font-size: $type-size-4; // matches the theme's h2
+}
+
+.pub {
+  margin-bottom: 1.25em;
+  line-height: 1.45;
+}
+
+.pub__title {
+  font-size: $section-font-size;
+  font-weight: bold;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub__authors {
+  font-size: $section-font-size;
+  color: $text-color;
+}
+
+.pub__meta {
+  font-size: $section-meta-size;
+  color: $gray;
+}
+
+.pub__venue {
+  font-style: italic;
+}
+
+.pub__year::before {
+  content: "\00b7";
+  margin: 0 0.4em;
+}
+
+.pub__link {
+  margin-left: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.pub__all {
+  font-size: $section-font-size;
+  margin-top: 1.2em;
+}
+
+/* Education / Experience
+   ========================================================================== */
+
+.cv-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: $section-font-size;
+
+  li {
+    display: flex;
+    gap: 0.75em;
+    margin-bottom: 0.6em;
+    line-height: 1.5;
+  }
+}
+
+.cv-list__when {
+  flex: 0 0 9em;
+  color: $gray;
+  font-variant-numeric: tabular-nums;
+}
+
+.cv-list__what {
+  flex: 1 1 auto;
+}
+
+.cv-list__note {
+  font-size: $section-font-size;
+  margin-top: 1em;
+}
+
+/* Stack the two-column rows on narrow screens */
+@media screen and (max-width: 600px) {
+  .news li,
+  .cv-list li {
+    display: block;
+  }
+
+  .news__date,
+  .cv-list__when {
+    display: block;
+    font-size: $section-meta-size;
+  }
+}

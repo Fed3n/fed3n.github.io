@@ -4,6 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/flare-transport
 date: 2025-09-08
+authors: 'Federico De Marchi, Jialong Li, Ying Zhang, Wei Bai, Yiting Xia'
+selected: true
 venue: 'SIGCOMM 2025'
 paperurl: 'https://dl.acm.org/doi/10.1145/3718958.3754342'
 citation: 'Federico De Marchi, Jialong Li, Ying Zhang, Wei Bai, Yiting Xia. (2025). &quot;Unlocking Superior Performance in Reconfigurable Data Center Networks with Credit-Based Transport; <i>SIGCOMM 2025</i>.'
