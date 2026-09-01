@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Federico De Marchi"
+seo_title: "Federico De Marchi - Homepage"
 excerpt: "Ph.D. student in Computer Science at the Max Planck Institute for Informatics, working on networked systems and data center networks."
 author_profile: true
 redirect_from: 
