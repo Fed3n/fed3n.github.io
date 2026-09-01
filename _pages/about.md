@@ -51,4 +51,4 @@ Before starting my Ph.D., I completed my M.Sc. in Computer Science at Saarland U
   <li><span class="cv-list__when">2022 &ndash; 2023</span> <span class="cv-list__what">Research Assistant, <em>Max Planck Institute for Informatics</em></span></li>
 </ul>
 
-<p class="cv-list__note">Full details are in my <a href="{{ base_path }}/files/fdemarc-cv.pdf">CV (PDF)</a>.</p>
+<p class="cv-list__note">Full details are in my <a href="{{ base_path }}/files/fdemarc-cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>.</p>
